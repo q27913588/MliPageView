@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>next_page</title>
+    <defs>
+        <path d="M7.02422145,14 C10.9035918,14 14.0484429,10.8659932 14.0484429,7 C14.0484429,4.64781079 12.8842568,2.56659418 11.0987727,1.29736624 C9.94968442,0.480526189 8.54326356,0 7.02422145,0 C3.14485107,0 7.1942452e-14,3.13400675 7.1942452e-14,7 C7.1942452e-14,10.8659932 3.14485107,14 7.02422145,14 Z" id="path-1"></path>
+        <filter x="-10.7%" y="-10.7%" width="135.6%" height="135.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="1" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="0.5" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="1" dy="1" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0817634726   0 0 0 0 0.11171938   0 0 0 0 0.164142219  0 0 0 0.174306163 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="next_page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-13" transform="translate(7.000000, 7.500000) rotate(90.000000) translate(-7.000000, -7.500000) translate(-0.500000, 0.500000)">
+            <g id="Oval">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <path stroke="#4B8AC5" stroke-width="1" d="M7.02422145,0.5 C8.43521181,0.5 9.74168893,0.946128268 10.809079,1.70489237 C12.4669674,2.88341774 13.5484429,4.81574177 13.5484429,7 C13.5484429,8.79472843 12.8183359,10.4194715 11.6381538,11.595584 C10.4573456,12.7723205 8.82603355,13.5 7.02422145,13.5 C5.22240936,13.5 3.59109734,12.7723205 2.41028907,11.595584 C1.23010697,10.4194715 0.5,8.79472843 0.5,7 C0.5,5.20527157 1.23010697,3.58052852 2.41028907,2.40441602 C3.59109734,1.2276795 5.22240936,0.5 7.02422145,0.5 Z" stroke-linejoin="square"></path>
+            </g>
+            <polygon id="Triangle" fill="#4B8AC5" points="7.02422145 4.66666664 10.0346021 8.66666695 4.01384083 8.66666695"></polygon>
+        </g>
+    </g>
+</svg>
