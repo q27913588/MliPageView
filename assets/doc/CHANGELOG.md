@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.12.1](http://192.168.2.21:7070///compare/v1.12.0...v1.12.1) (2021-08-31)
+
+
+### Bug Fixes
+
+* **roc-date:** fix date too big ([9a16771](http://192.168.2.21:7070///commit/9a16771301161063cce1acdcaeb8e0b9b1464ffe))
+* **roc-date-pick:** change width and wording ([a5bd0b5](http://192.168.2.21:7070///commit/a5bd0b53721d85488d88e02b1db0cf5bad5af5f9))
+* **roc-picker:** fix beenchecked error ([fdbd615](http://192.168.2.21:7070///commit/fdbd615ee7281be6c8ccd10fd727b42d5fbe1601))
+* 月曆style調整 ([594b7c1](http://192.168.2.21:7070///commit/594b7c1d2aa4422b6ad8ce99b8c6f1d845a7e5bf))
+
+## [1.12.0](http://192.168.2.21:7070///compare/v1.11.1...v1.12.0) (2021-08-02)
+
+
+### Features
+
+* editor 新增 disabled 功能 ([b4bd879](http://192.168.2.21:7070///commit/b4bd879977fba3dcaaff0484c0588397cbef3851))
+
+
+### Bug Fixes
+
+* flex-table no-data svg ([ae629c6](http://192.168.2.21:7070///commit/ae629c61e46b47404eb0ee9918e30e2f2816129a))
+* flex-table shadow ([f977306](http://192.168.2.21:7070///commit/f977306203afc190ec6308b05d4ae9d4d480bba0))
+
 ### [1.11.1](http://192.168.2.21:7070///compare/v1.11.0...v1.11.1) (2021-07-23)
 
 

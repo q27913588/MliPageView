@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/tsaotingwei/Documents/GitHub/TrainingCourse/projects/tc-front/src/polyfills.ts */"bTLG");
+module.exports = __webpack_require__(/*! /Users/user/Documents/GitHub/TrainingCourse/projects/tc-front/src/polyfills.ts */"bTLG");
 
 
 /***/ }),

@@ -29,7 +29,7 @@ const personInfo = {
     enLastName: 'HUANG',
     enName: 'ANGEL',
     birth: '民國79年3月3日',
-    sex: '女',
+    sex: '女性',
     id: 'A274526018',
     nationality: 'B',
     otherNationality: '',
@@ -54,7 +54,8 @@ const personInfo = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MODAL_ICON_PATH", function() { return MODAL_ICON_PATH; });
 const MODAL_ICON_PATH = {
-    SUCCESS: './assets/image/icon/icon_success@3x.png'
+    SUCCESS: './assets/image/icon/icon_success@3x.png',
+    ALERT: './assets/image/icon/icon_alert@3x.png',
 };
 
 
